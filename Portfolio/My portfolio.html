@@ -1569,39 +1569,60 @@
               </div>
             </div>
 
-            <!-- Student Workspace App -->
+            <!-- FEATURED: EquiScan — full-width -->
             <div
               class="glass-card project-card"
               data-category="web"
               onclick="
                 openModal(
-                  'Student Productivity Workspace',
-                  'A web application built for university students to streamline task organization, manage timetables, and track academic progress — all in one dashboard.',
-                  '',
+                  'EquiScan — Intelligent Analysis & Scanning Platform',
+                  'An intelligent web application designed to scan, analyze, and provide insights, streamlining the assessment process with a sleek dashboard and robust backend functionality.',
+                  'https://equiscan-production.up.railway.app/',
                 )
               "
             >
+              <!-- Live badge -->
+              <div class="project-live-badge">
+                <div class="project-live-dot"></div>
+                LIVE
+              </div>
+
+              <!-- Image -->
               <div
                 class="project-image"
                 style="
-                  background-image: url(&quot;https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80&quot;);
+                  background-image: url(&quot;https://images.financialexpressdigital.com/2026/09/jefferiestopbuytoday_20260921095412.jpg&quot;);
                 "
               >
                 <div class="project-image-overlay">
-                  <span class="overlay-btn">
-                    <span>View Interactive Demo</span>
+                  <a
+                    href="https://equiscan-production.up.railway.app/"
+                    target="_blank"
+                    class="overlay-btn"
+                    onclick="event.stopPropagation()"
+                  >
+                    <span>View Live Application</span>
                     <span class="overlay-arrow">
                       <i
                         data-lucide="arrow-up-right"
                         style="width: 16px; height: 16px"
                       ></i>
                     </span>
-                  </span>
+                  </a>
                 </div>
               </div>
 
               <div class="project-header">
-                <h3>Student Workspace App</h3>
+                <h3>EquiScan</h3>
+                <a
+                  href="https://github.com/shiwani77177/EquiScan"
+                  target="_blank"
+                  class="project-github-link"
+                  onclick="event.stopPropagation()"
+                  title="View on GitHub"
+                >
+                  <i data-lucide="github" style="width: 18px; height: 18px"></i>
+                </a>
               </div>
               <p
                 style="
@@ -1611,13 +1632,14 @@
                   margin-top: 0.4rem;
                 "
               >
-                Productivity dashboard for managing academic schedules, task
-                tracking, and course organization.
+                Intelligent analysis and scanning platform equipped with a
+                streamlined user dashboard and live deployment on Railway.
               </p>
               <div class="project-tags">
-                <span class="tag">React</span>
-                <span class="tag">Tailwind</span>
-                <span class="tag">Local Storage</span>
+                <span class="tag">Full Stack</span>
+                <span class="tag">Web App</span>
+                <span class="tag">REST API</span>
+                <span class="tag">Railway</span>
               </div>
             </div>
 
